@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:e2e": "npx playwright test",
+    "test:e2e:ui": "npx playwright test --headed"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahyaa21/playwright.git"
